@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.float {
+  animation: float-animation 2.5s infinite ease-in-out;
+}
+
+@keyframes float-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+}
+
+#root {
+  position: relative;
+  background-image: url('./src/img/Rectangle26.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
