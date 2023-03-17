@@ -3,7 +3,7 @@
     width: 24rem;
     height: 15rem;
     margin-top: 15rem;
-    background-image: url('./src/svg/Rectangle13.svg');
+    background-image: url('../svg/Rectangle13.svg');
     background-size: contain;
     background-size: auto;
     background-position: center;
