@@ -13,5 +13,5 @@ export const imageMapper = {
   'lluvia ligera': rainImage,
   tormenta: stormImage,
   'muy nuboso': cloudyImage,
-  'nubes dispersas': dispperCloudsImage,
+  'algo de nubes': dispperCloudsImage,
 };
